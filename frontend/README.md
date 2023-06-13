@@ -1,0 +1,1 @@
+Brief Description about project: Click 2 get is a website that allows people to buy goods, services and digital products over the internet. This website allows the user to buy the products, which will be directly provided by trusted companies and brands.

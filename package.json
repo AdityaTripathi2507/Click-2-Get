@@ -1,0 +1,35 @@
+{
+  "name": "click2get",
+  "version": "1.0.0",
+  "description": "e commerce platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "CYCLIC-postbuild": "NPM_CONFIG_PRODUCTION=false && npm i --legacy-peer-deps && npm i --prefix frontend --legacy-peer-deps && npm run build --prefix frontend --legacy-peer-deps"
+  },
+  "author": "Tanish Neema",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@mui/styles": "^5.10.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.6.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "react-dev-utils": "^12.0.1",
+    "react-redux": "^8.0.4",
+    "stripe": "^10.17.0",
+    "validator": "^13.7.0",
+    "webfontloader": "^1.6.28"
+  }
+}
